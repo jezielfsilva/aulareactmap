@@ -58,9 +58,9 @@ class list extends Component {
                {this.state.estudantes.map((item, index) => {
                    return (
                        <div className='boxcard' key={index}>
-                           <h1>{item.nome}</h1>
-                           <h2>{item.polo}</h2>
-                           <h2>{item.idade}</h2>
+                           <h1 className="Title">{item.nome}</h1>
+                           <h2 className="TitleTwo">{item.polo}</h2>
+                           <h2 className="TitleTree">{item.idade}</h2>
                        </div>
                    );
                })
